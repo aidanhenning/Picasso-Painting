@@ -1,0 +1,128 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: black;
+  }
+}
+
+.upper {
+  position: relative;
+}
+
+/* floating lamp stying */
+.lamps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-content: center;
+  gap: 75px;
+  z-index: -1;
+}
+.lamp {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: rgb(255, 94, 0);
+}
+.lamp:nth-child(even) {
+  background-color: rgb(255, 196, 0);
+}
+.lamp:nth-child(3n) {
+  background-color: yellow
+}
+
+/* castle roofs */
+.roofs{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.roofOne {
+  width: 0; 
+  height: 0; 
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 200px solid rgb(29, 29, 187);
+}
+.roofTwo {
+  width: 0; 
+  height: 0; 
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 200px solid rgb(29, 29, 187);
+}
+.centerRoof {
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 300px solid rgb(29, 29, 187);
+}
+
+/* castle base */
+.castle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.castleBase {
+  height: 300px;
+  width: 500px;
+  background-color: rgb(22, 22, 150);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.door {
+  background-color: rgb(97, 65, 23);
+  position: absolute;
+  margin-top: 220px;
+  width: 50px;
+  height: 80px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* ground */
+.ground {
+  height: 300px;
+  width: 100%;
+  background-color: green;
+}
+
+/* forms */
+.interest-form {
+  text-align: end;
+  background-color:rgba(255, 255, 255, 0.5);
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+}
